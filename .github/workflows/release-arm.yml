@@ -11,7 +11,7 @@ on:
 env:
   IMAGE_FILE: img-release-arm.tar
   IMAGE: picolibc
-  HASH_FILE: picolibc/.github/packages.txt
+  HASH_FILE: picolibc/.github/packages-arm.txt
 
 jobs:
   cache-maker:

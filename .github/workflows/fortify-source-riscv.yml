@@ -11,7 +11,7 @@ on:
 env:
   IMAGE_FILE: img-fortify-source-riscv.tar
   IMAGE: picolibc
-  HASH_FILE: picolibc/.github/packages.txt
+  HASH_FILE: picolibc/.github/packages-riscv.txt
 
 jobs:
   cache-maker:
